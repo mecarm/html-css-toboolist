@@ -54,3 +54,62 @@ h2::before{
     margin-bottom: 20px;
 }
 
+p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.check{
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    margin-right: 5px;
+    padding: 3px;
+}
+
+.uncheck{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-right: 5px;
+    padding: 3px;
+}
+
+.type{
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 20%;
+    color: white;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.editorial{
+    background-color: #46ADF1;
+    border-color: #46ADF1;
+}
+
+.goals{
+    background-color: #9D72E4;
+    border-color: #9D72E4;
+}
+
+.recruiting{
+    background-color: #63C0A9;
+    border-color: #63C0A9;
+}
+
+.mobile{
+    background-color: #F29F34;
+    border-color: #F29F34;
+}
+
+.website{
+    background-color: #D864A1;
+    border-color: #D864A1;
+}
+
+.sales{
+    background-color: #B1C925;
+    border-color: #B1C925;
+}
