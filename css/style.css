@@ -46,3 +46,11 @@ hr{
     margin-bottom: 40px;
     border: 1px solid lightgray;
 }
+
+h2::before{
+    content: '\25BE' ;    
+}
+.divisor{
+    margin-bottom: 20px;
+}
+
