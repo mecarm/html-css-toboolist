@@ -9,7 +9,11 @@ h1 { font-family: Verdana, Geneva, sans-serif; font-size: 24px; font-style: norm
 h1{
     display: inline-block;
     vertical-align: middle;
-    
+}
+
+header{
+    margin-bottom: 20px;
+    background-color: white;
 }
 
 img{
@@ -17,16 +21,16 @@ img{
 }
 
 main{
-    background-color: whitesmoke;
-    padding:2% 25%;
-}
-
-.container{
     background-color: white;
-    padding: 5% 10%;
+    width: 60%;
+    margin: 0 auto;
     border-radius: 15px;
+
 }
 
+body{
+    background-color: whitesmoke;
+}
 
 #task{
     background-color: #46ADF1;
@@ -44,10 +48,14 @@ button{
     padding: 5px 10px;
 }
 
-hr{
+.box-top{
     margin-top: 10px;
     margin-bottom: 40px;
-    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.p-xl{
+    padding: 20px 30px;
 }
 
 h2::before{
